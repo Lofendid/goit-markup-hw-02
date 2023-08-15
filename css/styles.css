@@ -1,0 +1,195 @@
+/* Common */
+
+body {
+ font-family: 'Roboto', sans-serif;
+ color: #2E2F42;
+ background-color:#ffffff;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0.32px;
+ padding: 0%;
+ margin: 0%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+.logo-item {
+    color: #4D5AE5;
+}
+
+/* Blended */
+
+.logotype-header,
+.logotype-footer {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    }
+
+.logotype-header:hover,
+.logotype-footer:hover,
+.logotype-header:focus, 
+.logotype-footer:focus {
+    opacity: 0.85;
+}
+
+.logotype-header:active,
+.logotype-footer:active {
+    color:#2E2F42;
+    opacity: 0.45;
+}
+
+.feature-title,
+.name-title,
+.portfolio-title {
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.section-features-title,
+.section-portfolio-title,
+.section-team-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.feature-text,
+.position,
+.portfolio-text {
+    color: #434455;
+}
+
+/* Page Header */
+
+.nav-item {
+    color: #2E2F42;
+    font-weight: 500;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    font-weight: 400;
+    opacity: 0.95;
+}
+
+.nav-item:active {
+    font-weight: 400;
+    opacity: 0.45;
+}
+
+.contacts-item {
+    color: #2E2F42;
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+    opacity: 0.85;
+}
+
+.contacts-item:active {
+    opacity: 0.45;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color:#FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.hero-button {
+    border-radius: 4px;
+    background:#4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Features Section */
+
+
+
+/* Our Team */
+
+.team-section {
+   background-color: #F4F4FD;
+}
+
+.team-card {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    align-items: center;
+    gap: 32px;
+    width: 264px;
+    height: 380px;
+}
+
+.position,
+.name-title {
+    text-align: center;
+}
+
+/* Our Portfolio */
+
+.portfolio-card {
+    width: 360px;
+    height: 420px;
+    border: 1px solid #E7E9FC;
+    background: #FFF;
+}
+
+.portfolio-title,
+.portfolio-text {
+    text-indent: 16px;
+}
+
+/* Footer */
+
+.footer-block {
+    background-color: #2E2F42;
+}
+
+.logotype-footer {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
