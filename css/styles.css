@@ -70,6 +70,10 @@ ul {
 
 /* Page Header */
 
+.header-block {
+    background-color: #F4F4FD;
+}
+
 .logo-accent-header {
     color: #2E2F42;
 }
@@ -106,7 +110,7 @@ ul {
 }
 
 .hero-title {
-    color:#FFF;
+    color:#F4F4FD;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -119,7 +123,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background:#4D5AE5;
-    color: #ffffff;
+    color: #F4F4FD;
     font-weight: 500;
     letter-spacing: 0.64px;
     cursor: pointer;
@@ -132,7 +136,9 @@ ul {
 
 /* Features Section */
 
-
+.features-section {
+    background-color: #F4F4FD;
+}
 
 /* Our Team */
 
@@ -141,13 +147,17 @@ ul {
 }
 
 .team-card {
-    background-color: #ffffff;
+    background-color: #F4F4FD;
 }
 
 /* Our Portfolio */
 
+.portfolio-section {
+    background-color: #F4F4FD;
+}
+
 .portfolio-card {
-    background: #FFF;
+    background: #F4F4FD;
 }
 
 .portfolio-title,
@@ -162,7 +172,7 @@ ul {
 }
 
 .logotype-accent-footer {
-    color: #f4f4fd;
+    color: #F4F4FD;
 }
 
 .footer-text {
