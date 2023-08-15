@@ -34,17 +34,19 @@ ul {
     color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .section-features-title,
 .section-portfolio-title,
 .section-team-title {
     color: #2E2F42;
+    letter-spacing: 0.02em;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.2;
     text-transform: capitalize;
 }
 
@@ -97,6 +99,7 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
