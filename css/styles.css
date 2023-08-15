@@ -108,11 +108,12 @@ ul {
 }
 
 .hero-title {
-    color:#F4F4FD;
+    color:#ffffff;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 
 .hero-button {
@@ -121,7 +122,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background:#4D5AE5;
-    color: #F4F4FD;
+    color: #ffffff;
     font-weight: 500;
     letter-spacing: 0.64px;
     cursor: pointer;
@@ -136,6 +137,10 @@ ul {
 
 /* Our Team */
 
+.section-team-title {
+    text-align: center;
+}
+
 .team-section {
    background-color: #F4F4FD;
 }
@@ -145,6 +150,10 @@ ul {
 }
 
 /* Our Portfolio */
+
+.section-portfolio-title {
+    text-align: center;
+}
 
 .portfolio-card {
     background: #ffffff;
