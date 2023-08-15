@@ -3,14 +3,12 @@
 body {
  font-family: 'Roboto', sans-serif;
  color: #2E2F42;
- background-color:#ffffff;
+ background-color:#434455;
  font-size: 16px;
  font-style: normal;
  font-weight: 400;
  line-height: 24px;
  letter-spacing: 0.32px;
- padding: 0%;
- margin: 0%;
 }
 a {
     text-decoration: none;
@@ -19,18 +17,15 @@ ul {
     list-style-type: none;
 }
 
-.logo-item {
-    color: #4D5AE5;
-}
-
 /* Blended */
 
 .logotype-header,
 .logotype-footer {
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 0.875;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -60,10 +55,9 @@ ul {
 .section-features-title,
 .section-portfolio-title,
 .section-team-title {
-    text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.666;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -76,6 +70,10 @@ ul {
 
 /* Page Header */
 
+.logo-accent-header {
+    color: #2E2F42;
+}
+
 .nav-item {
     color: #2E2F42;
     font-weight: 500;
@@ -87,8 +85,12 @@ ul {
     color: #404BBF;
 }
 
+.contacts-address {
+    font-style: normal
+}
+
 .contacts-item {
-    color: #2E2F42;
+    color: #434455;
 }
 
 .contacts-item:hover,
@@ -105,23 +107,21 @@ ul {
 
 .hero-title {
     color:#FFF;
-    text-align: center;
-    font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 2.5;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
 .hero-button {
-    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background:#4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #ffffff;
     font-weight: 500;
     letter-spacing: 0.64px;
-    padding: 16px 32px;
     cursor: pointer;
 }
 
@@ -141,35 +141,13 @@ ul {
 }
 
 .team-card {
-    border-radius: 0px 0px 4px 4px;
-    background: var(--white, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    align-items: center;
-    gap: 32px;
-    width: 264px;
-    height: 380px;
-}
-
-.position,
-.name-title {
-    text-align: center;
+    background-color: #ffffff;
 }
 
 /* Our Portfolio */
 
 .portfolio-card {
-    width: 360px;
-    height: 420px;
-    border: 1px solid #E7E9FC;
     background: #FFF;
-}
-
-.portfolio-card:hover {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-title,
@@ -183,8 +161,8 @@ ul {
     background-color: #2E2F42;
 }
 
-.logotype-footer {
-    color: #F4F4FD;
+.logotype-accent-footer {
+    color: #f4f4fd;
 }
 
 .footer-text {
