@@ -46,7 +46,7 @@ ul {
     letter-spacing: 0.02em;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.11;
     text-transform: capitalize;
 }
 
@@ -119,6 +119,10 @@ ul {
 }
 
 /* Features Section */
+
+.feature-title {
+    line-height: 1.2em;
+}
 
 /* Our Team */
 
